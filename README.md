@@ -1,5 +1,5 @@
 # React-Native-ViewPager Updated version.
-[![npm](https://img.shields.io/npm/v/@shankarmorwal/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/@shankarmorwal/rn-viewpager) [![npm](https://img.shields.io/npm/dm/@shankarmorwal/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/@shankarmorwal/rn-viewpager) [![npm](https://img.shields.io/npm/dt/@shankarmorwal/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/@shankarmorwal/rn-viewpager)
+[![npm](https://img.shields.io/npm/v/@jeison.berdugo.glooko/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/@jeison.berdugo.glooko/rn-viewpager) [![npm](https://img.shields.io/npm/dm/@jeison.berdugo.glooko/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/@jeison.berdugo.glooko/rn-viewpager) [![npm](https://img.shields.io/npm/dt/@jeison.berdugo.glooko/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/@jeison.berdugo.glooko/rn-viewpager)
 
 ViewPager and Indicator component for react-native on both android and ios. ViewPager's props is the same as [ViewPagerAndroid](https://facebook.github.io/react-native/docs/viewpagerandroid.html#content). 
 
@@ -44,7 +44,7 @@ yarn ios
 ## Usage
 
 ### Install from npm:
-`npm install --save @shankarmorwal/rn-viewpager`
+`npm install --save @jeison.berdugo.glooko/rn-viewpager`
 
 ### Integrate into your app:  
 
@@ -52,7 +52,7 @@ yarn ios
 
 import {StyleSheet, View, Text} from 'react-native';
 import React, {Component} from 'react';
-import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from '@shankarmorwal/rn-viewpager';
+import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from '@jeison.berdugo.glooko/rn-viewpager';
 
 export default class ViewPagerPage extends Component {
     render() {

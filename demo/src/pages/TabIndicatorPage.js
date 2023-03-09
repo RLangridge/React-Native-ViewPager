@@ -6,7 +6,7 @@
 
 import React, { useState } from 'react'
 import { StyleSheet, View, Text, Animated } from 'react-native'
-import { IndicatorViewPager, PagerTabIndicator } from '@shankarmorwal/rn-viewpager'
+import { IndicatorViewPager, PagerTabIndicator } from '@jeison.berdugo.glooko/rn-viewpager'
 import { SquarePagerView, TrianglePagerView, CirclePagerView } from '../components/PagerItemView'
 
 const TabIndicatorPage = () => {

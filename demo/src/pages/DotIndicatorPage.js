@@ -5,7 +5,7 @@
 'use strict'
 import React, { useState } from 'react'
 import { StyleSheet, View, Text, Animated, TouchableOpacity, Image } from 'react-native'
-import { IndicatorViewPager, PagerDotIndicator } from '@shankarmorwal/rn-viewpager'
+import { IndicatorViewPager, PagerDotIndicator } from '@jeison.berdugo.glooko/rn-viewpager'
 import { TrianglePagerView, SquarePagerView, CirclePagerView } from '../components/PagerItemView'
 
 const DotIndicatorPage = (props) => {

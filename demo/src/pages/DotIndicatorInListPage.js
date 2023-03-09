@@ -4,7 +4,7 @@
 
 import React, { useState } from 'react'
 import { StyleSheet, View, Text, TouchableOpacity, Image, ListView } from 'react-native'
-import { IndicatorViewPager, PagerDotIndicator } from '@shankarmorwal/rn-viewpager'
+import { IndicatorViewPager, PagerDotIndicator } from '@jeison.berdugo.glooko/rn-viewpager'
  
  const DotIndicatorInListPage = () => {
     var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
