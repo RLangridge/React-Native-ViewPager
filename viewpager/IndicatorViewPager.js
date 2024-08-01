@@ -6,7 +6,8 @@
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { StyleSheet, View, ViewPropTypes } from 'react-native'
+import { StyleSheet, View } from 'react-native'
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 import ViewPager from './ViewPager'
 
 export default class IndicatorViewPager extends Component {

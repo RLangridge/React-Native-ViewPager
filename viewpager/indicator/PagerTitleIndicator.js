@@ -6,7 +6,8 @@
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { StyleSheet, View, ViewPropTypes, Text, TouchableOpacity,ScrollView ,Dimensions} from 'react-native'
+import { StyleSheet, View, Text, TouchableOpacity,ScrollView ,Dimensions} from 'react-native'
+import {ViewPropTypes, TextPropTypes } from 'deprecated-react-native-prop-types'
 import IndicatorViewPager from '../IndicatorViewPager'
 
 const itemLayoutInfo = [];
@@ -25,9 +26,9 @@ export default class PagerTitleIndicator extends Component {
         titles: PropTypes.arrayOf(PropTypes.string).isRequired,
         itemStyle: ViewPropTypes.style,
         selectedItemStyle: ViewPropTypes.style,
-        itemTextStyle: Text.propTypes.style,
+        itemTextStyle: TextPropTypes.style,
         trackScroll:PropTypes.bool,
-        selectedItemTextStyle: Text.propTypes.style,
+        selectedItemTextStyle: TextPropTypes.style,
         selectedBorderStyle: ViewPropTypes.style,
         renderTitle: PropTypes.func
     }
